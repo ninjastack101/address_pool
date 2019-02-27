@@ -1,0 +1,7 @@
+development:
+  DB_NAME: address_pool_development
+  DB_HOST: localhost
+  DB_USERNAME: rails
+  DB_PASSWORD: rails
+
+production:
