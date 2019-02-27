@@ -1,0 +1,5 @@
+<%= link_to t('signout'), destroy_user_session_path, method: :delete %>
+
+<h2><%= t('users.hi')%> </h2>
+
+<p> <%= t('users.address', address: current_user.address) %> </p>

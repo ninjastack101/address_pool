@@ -30,4 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  signout: 'Signout'
+  users:
+    hi: 'Hi'
+    address: 'Your address is: %{address}'
+
