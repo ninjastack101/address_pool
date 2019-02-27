@@ -8,5 +8,8 @@ Rails.application.routes.draw do
   end
 
   get '/my_address', to: 'users#my_address'
+  resource :users, only:[] do
+    post :assign_address, on: :collection
+  end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

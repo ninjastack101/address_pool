@@ -34,4 +34,8 @@ en:
   users:
     hi: 'Hi'
     address: 'Your address is: %{address}'
+    assign_new_address: 'Assign New Address'
+    address_pool_empty: 'Address Pool empty, please try again in %{time} Minutes'
+    address_assigned_successfully: 'Address Assigned Successfully'
+    unable_to_assign_address: 'Unable to assign address, please try again'
 
