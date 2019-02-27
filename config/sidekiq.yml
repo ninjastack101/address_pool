@@ -1,0 +1,4 @@
+:schedule:
+  address_generator:
+    every: ['12m', first_in: '10s'] # Runs 12 minutes
+    class: AddressGenerator

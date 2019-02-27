@@ -3,5 +3,10 @@ development:
   DB_HOST: localhost
   DB_USERNAME: rails
   DB_PASSWORD: rails
+  ADDRESS_LENGTH: 32
+  REDIS_URL: redis://localhost:6379/0
+  MAX_ADDRESS_GENERATE: 10
+  REDIS_ADDRESS_KEY: 'address'
+  REDIS_LAST_RUN_KEY: 'last_run_at'
 
 production:
