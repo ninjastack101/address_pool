@@ -1,4 +1,4 @@
-<h2><%= t('users.hi')%> </h2>
+<h2><%= t('users.hi', email: current_user.email)%> </h2>
 
 <p> <%= t('users.address', address: current_user.address) %> </p>
 

@@ -1,9 +1,9 @@
 <% unless flash.empty? %>
   <p>
     <% if flash[:notice] %>
-      <%= flash[:notice] %>
+      <b><%= flash[:notice] %></b>
     <% elsif flash[:error] %>
-      <%= flash[:error] %>
+      <b><%= flash[:error] %></b>
     <% end %>
     <% flash.discard %>
   </p>

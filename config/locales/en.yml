@@ -32,7 +32,7 @@
 en:
   signout: 'Signout'
   users:
-    hi: 'Hi'
+    hi: 'Hi %{email}'
     address: 'Your address is: %{address}'
     assign_new_address: 'Assign New Address'
     address_pool_empty: 'Address Pool empty, please try again in %{time} Minutes'
