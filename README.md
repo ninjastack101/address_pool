@@ -1,24 +1,22 @@
-# README
+# Address Pool
+This app allows user to signup, signin, assign address and user can get new address.
+### Environment
+* Ruby version : 2.5.1
+* Rails : 5.2.2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Setup
+Install bundler and run `bundle install`:
+```bash
+gem install bundler && bundle
+```
+### How to run the application
+```bash
+ rails s
+```
+### How to run the sidekiq service
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+ sidekiq
+```
+### API calling instructions
+Please find postman collection here: https://documenter.getpostman.com/view/1671726/S11KPdYL
