@@ -68,3 +68,6 @@ gem 'devise'
 gem 'sidekiq'
 # Scheduler
 gem 'sidekiq-scheduler'
+#Doorkeeper OAuth 2 provider
+gem 'doorkeeper'
+gem 'doorkeeper-jwt'

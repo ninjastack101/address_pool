@@ -8,5 +8,6 @@ development:
   MAX_ADDRESS_GENERATE: 10
   REDIS_ADDRESS_KEY: 'address'
   REDIS_LAST_RUN_KEY: 'last_run_at'
+  JWT_SECRET_KEY: 'b82ed6b1f52c18280fa9829c8d4ddca3efae84f8fc5375c4cabfedc33439a5c8e23828dae2ecdf8e828cbe92ae72f353f56dda69195037fbfeb8f069c5a8082f'
 
 production:
