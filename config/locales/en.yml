@@ -38,4 +38,11 @@ en:
     address_pool_empty: 'Address Pool empty, please try again in %{time} Minutes'
     address_assigned_successfully: 'Address Assigned Successfully'
     unable_to_assign_address: 'Unable to assign address, please try again'
+  api:
+    success: 'Success!'
+    user:
+      invalid_email_or_password: 'Invalid email/username or password'
+      sign_out: 'Logged Out!'
+    application:
+      no_route: 'No route matches %{unmatched_route}'
 
